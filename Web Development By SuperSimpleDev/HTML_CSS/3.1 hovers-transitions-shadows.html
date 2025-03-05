@@ -1,0 +1,82 @@
+<!--- WE ARE USING CSS-BASICS EXERCISE AND ENHANCING THEM WITH HOVERS TRANSITIONS AND SHADOW -->
+<button class="Subscribe-button">
+  SUBSCRIBE
+</button>
+
+<style>
+  .Subscribe-button{
+    background-color: rgb(198, 49, 49);
+    color: white;
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px; 
+    transition: opacity 0.15s; /* arg1 = what are u changing 
+                                  arg2 = what is duration of itS*/
+  }
+  .Subscribe-button:hover
+  {
+    opacity: 0.8;
+  }
+  .Subscribe-button:active /* Activates when button clicks*/
+  {
+    opacity: 0.5;
+  }
+</style>
+
+<button class="Join-button">
+  JOIN
+</button>
+
+<style>
+  .Join-button{
+    background-color: white;
+    height: 40px;
+    width: 70px;
+    border-color: rgb(24, 132, 200);
+    color: rgb(63, 152, 197);
+    border-style: solid;
+    border-radius: 2px;
+    border-width: 1px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.15s, 
+    color 0.15s,
+    opacity 0.15s;
+  }
+  .Join-button:hover
+  {
+    color:white;
+    background-color: rgb(63, 152, 197);;
+  }
+  .join-button:active
+  {
+    opacity: 0.7;
+  }
+</style>
+
+<button class="Tweet-button">
+    Tweet
+</button>
+
+<style>
+  .Tweet-button{
+    height: 40px;
+    width: 70px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: rgb(24, 117, 204);
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    transition:box-shadow 0.15s;
+  }
+  .Tweet-button:hover
+  {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15); /* Box-Shadow : Horizental pos, Vertical pos, Blur , Color*/
+  }
+
+</style>

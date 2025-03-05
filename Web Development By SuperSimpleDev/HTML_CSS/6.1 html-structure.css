@@ -1,0 +1,15 @@
+.header
+{
+  font-family: "JetBrains Mono", monospace ;
+  font-size: 50px;
+  text-align: center;
+}
+.description
+{
+  font-family: "JetBrains Mono" , monospace;
+  text-align: center;
+}
+.description-slogan
+{
+  text-decoration: underline;
+}

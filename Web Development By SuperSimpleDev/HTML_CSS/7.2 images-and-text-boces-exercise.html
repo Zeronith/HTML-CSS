@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Exercises - Images and Text Boxes
+    </title>
+    <style>
+      /* 7a. Load image , set width to 200px and add rounded corners */
+      .image1
+      {
+        width: 200px;
+        border-radius: 10px;
+      }
+      /* 7b. Make the image a square , center the image within the square */
+      .image2
+      {
+        width: 200px;
+        height: 200px;
+        object-fit: cover ;
+        object-position: center;
+      }
+      /* 7c. Make the image a circle (Using border radius) */
+      .image3
+      {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 200px;
+      }
+      /* 7d. Create textbox with rounded corner */
+      .youtube
+      {
+        margin-top: 20px;
+        padding: 10px 10px 10px 10px;
+        border-radius: 10px;
+        border-style: solid;
+        border-color: rgb(186, 181, 181);
+      }
+      /* 7e. Create textbox with a shadow, and no border */
+      .google
+      {
+        width: 250px;
+        margin-top: 20px;
+        padding: 10px 250px 10px 10px;
+        border-radius: 20px;
+        border-style: none;
+        box-shadow: 5px 5px 5px rgba(0,0,0, 0.1);
+      }
+      /* 7f. LinkedIn Signup combo */
+      .email
+      {
+        color: gray;
+        font-family: Arial;
+        font-size: 10px;
+        margin-bottom: 5px;
+      }
+      .linkedIn
+      {
+        border-color: gray;
+        border-style: solid;
+        border-radius: 2px;
+        padding-right: 60px;
+      }
+      .text
+      {
+        margin-top: 10px;
+        color: gray;
+        font-size: 10px;
+      }
+      .text-button
+      {
+        padding: 7px 75px 7px 75px;
+        background-color: rgb(50, 92, 176);
+        color: white;
+        border-radius: 15px;
+        border-style: none;
+      }
+      /* 7g. Twitter text box */
+      .pfp
+      {
+        vertical-align: middle;
+        width: 25px;
+        height: 25px;
+        object-fit: cover;
+        object-position: center;
+        border-style: none;
+        border-radius: 50px;
+      }
+      .post
+      {
+        vertical-align: middle;
+        font-size: 10px;
+        padding-left: 5px;
+        padding-right: 80px;
+        border-style: none;
+        font-family: Arial;
+        color: gray;
+        margin-top: 10px;
+      }
+      .tweet
+      {
+        color: white;
+        background-color: rgb(23, 98, 136);
+        border-style: none;
+        padding: 5px 10px 5px 10px;
+        border-radius: 20px;
+        vertical-align: middle;
+        font-size: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!--7a-->
+    <img class="image1" src="/Youtube/Thumnails/BoywithukeThumbnail.jpg" alt="">
+    <!--7b-->
+    <img class="image2" src="/Youtube/Thumnails/BoywithukeThumbnail.jpg" alt="">
+    <!--7c-->
+    <img class="image3" src="/Youtube/Thumnails/BoywithukeThumbnail.jpg" alt="">
+    <br>
+    <!--7d-->
+    <input class="youtube" type="text" placeholder="Search">
+    <br>
+    <!--7e-->
+    <input class="google" type="text" placeholder="Search Google or type a URL">
+    <!--7f-->
+    <p class="email">Email</p>
+    <input class="linkedIn" type="text">
+    <p class="text" >By clicking Agree & Join , you agree to the Privacy Policy</p>
+    <button class="text-button">Agree & Join</button>
+
+    <br>
+    <br><br>
+    <!--7g-->
+    <img class="pfp" src="/Youtube//Thumnails/BoywithukeThumbnail.jpg" alt="Boywithuke's photo">
+    <span class="post">What's happening?</span>
+    <button class="tweet">Tweet</button>
+  </body>
+</html>

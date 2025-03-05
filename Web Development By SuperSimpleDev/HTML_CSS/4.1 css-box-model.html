@@ -1,0 +1,100 @@
+<!--- CSS box model
+  - Padding -> How much space an element takes up
+  - Margin  -> How far it is away from other elements 
+  -->
+
+
+  <!--- Replace height and width by 
+  padding to match CSS box model-->
+
+<button class="Subscribe-button">
+  SUBSCRIBE FOR MY CHANNEL
+</button>
+
+<style>
+  .Subscribe-button{
+    background-color: rgb(198, 49, 49);
+    color: white;
+    /* REPLACED WITH PADDING 
+    height: 40px;
+    width: 120px; */
+
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px; 
+    vertical-align: top; /* Aligns with top of content */
+
+  }
+</style>
+
+<button class="Join-button">
+  JOIN
+</button>
+
+<style>
+  .Join-button{
+    background-color: white;
+    /*
+    height: 40px;
+    width: 70px; */
+    
+    
+    padding-top: 200px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+
+    border-color: rgb(24, 132, 200);
+    color: rgb(63, 152, 197);
+    border-style: solid;
+    border-radius: 2px;
+    border-width: 1px;
+    cursor: pointer;
+    margin-right: 10px;
+    vertical-align: top;
+  }
+</style>
+
+<button class="Tweet-button">
+    Tweet
+</button>
+
+<style>
+  .Tweet-button{
+    /*
+      Defining height and width is static just dont define
+      they are dynamic so it will fit with their content
+      (IN THIS CASE HEIGHT HAVE TO BE STATIC)
+
+    height: 40px;
+    width: 70px; */ 
+    
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+    border-radius: 20px;
+    border-style: none;
+    background-color: rgb(24, 117, 204);
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    vertical-align: top;
+
+  }
+</style>

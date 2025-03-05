@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Display Block and Inline Block Exercises
+    </title>
+    <style>
+      /*8a. Create 2 text boxes and put them on separate lines */
+      .name
+      {
+        display: block;
+      }
+      .email
+      {
+        margin-top: 5px;
+        display: block;
+      }
+      /*8b. Create a paragraph and 2 buttons and place them on the same line*/
+      .thanking-text
+      {
+        width: 200px;
+        display: inline-block;
+        vertical-align: middle;
+      }
+      /*8c. Use some picture and recreate some search form*/
+      .img
+      {
+        display: block;
+        width: 200px;
+        margin-left: 300px;
+      }
+      .input-bar
+      {
+        margin-left: 250px;
+        margin-top: 10px;
+        width: 300px;
+        border-radius: 20px;
+        border-style: none;
+        padding:10px 50px 10px 10px;
+        box-shadow: 5px 5px 10px rgba(0, 0,0, 0.1);
+      }
+      /*8d. Sign up form*/
+      .first-name
+      {
+        width: 100px;
+        padding: 10px 0 10px 10px;
+        border-radius: 5px;
+        border-style: solid;
+        border-color: rgb(195, 188, 187);
+      }
+      .last-name
+      {
+        width: 100px;
+        padding: 10px 0 10px 10px;
+        border-radius: 5px;
+        border-style: solid;
+        border-color: rgb(195, 188, 187);
+      }
+      .email
+      {
+        width: 219px;
+        padding: 10px 0 10px 10px;
+        border-radius: 5px;
+        border-style: solid;
+        border-color: rgb(195, 188, 187);
+      }
+      .sign-up-button
+      {
+        margin-top: 0px;
+        padding: 10px 90px 10px 90px;
+        border-radius: 10px;
+        border-style: none;
+        color: white;
+        background-color: rgb(62, 155, 243);
+      }
+      /*8e. Uber request-a-ride form */
+      .info
+      {
+        font-size: 25px;
+        font-family: Arial;
+      }
+      .input-loc
+      {
+        padding: 10px 100px 10px 10px;
+        color: rgb(203, 201, 201);
+        background-color: rgb(234, 229, 229);
+        border-style: none;
+        margin-bottom: 10px;
+
+      }
+      .input-dest
+      {
+        padding: 10px 100px 10px 10px;
+        color: rgb(203, 201, 201);
+        background-color: rgb(234, 229, 229);
+        border-style: none;
+        margin-bottom: 10px;
+      }
+      .req-button
+      {
+        background-color: black;
+        color: white;
+        padding: 10px 20px 10px 20px;
+        border-style: none;
+        margin-right: 16px;
+      }
+      .sche-button
+      {
+        background-color: rgb(234, 229, 229);;
+        color: black;
+        border-style: none;
+        padding: 10px 20px 10px 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!--8a-->
+    <input class="name" type="text" placeholder="Name">
+    <input class="email" type="text" placeholder="Email">
+
+    <!--8b-->
+    <p class="thanking-text">Thanks for chatting with our customer support. Would you like to take our quick survey ?</p>
+    <button class="yes-button">Yes</button>
+    <button class="no-button">No</button>
+    <br>
+    <!--8c-->
+    <img class="img" src="/Youtube/Thumnails/BoywithukeThumbnail.jpg" alt="">
+    <input class="input-bar" type="text" placeholder="Search Boywithuke or type a URL">
+    <br>
+    <!--8d-->
+    <input class="first-name" type="text" placeholder="First name">
+    <input class="last-name" type="text" placeholder="Last name">
+    <br>
+    <input class="email" type="text" placeholder="Email">
+    <br>
+    <button class="sign-up-button" >Sign Up</button>
+    <!--8e-->
+    <p class="info" >Request a ride now</p>
+    <input class="input-loc" type="text" placeholder="Enter pickup location">
+    <br>
+    <input class="input-dest" type="text" placeholder="Enter destination">
+    <br>
+    <button class="req-button" >Request now</button>
+    <button class="sche-button" >Schedule for later</button>
+  </body>
+</html>
