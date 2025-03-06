@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons</title>
+</head>
+<body>
+    
+    <a target = "_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+    <button  onclick = "doSomething()" style="background-color:gray; border: 0px solid ;font-size: 25px; color:lightgray ; border-radius: 25px;">Click me</button>
+    </a>
+
+    <p id="greet">Hello</p>
+    <!-- Just little bit advanced javascript shit-->
+    <script> function doSomething()
+    {
+        document.getElementById("greet").innerHTML = "Goodbye"
+    }
+    </script>
+</body>
+</html>
