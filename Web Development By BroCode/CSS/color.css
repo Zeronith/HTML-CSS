@@ -1,0 +1,16 @@
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkslateblue;
+}
+#name /* by id  */
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    color: aliceblue;
+}
+#lorem
+{
+    color: cornflowerblue;
+    font-size: large;
+}
